@@ -1,0 +1,172 @@
+[
+    {
+        "riskScore": 72,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 85,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 45,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 95,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 60,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 30,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 80,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 55,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 40,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 90,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 65,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 35,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 75,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 50,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 20,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 100,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 70,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 25,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 85,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 45,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 95,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 60,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 30,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 80,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 55,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 40,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 90,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 65,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 35,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 75,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 50,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    },
+    {
+        "riskScore": 20,
+        "riskLevel": "Low",
+        "recommendations": ["Maintain your current safety practices."]
+    },
+    {
+        "riskScore": 100,
+        "riskLevel": "High",
+        "recommendations": ["Reduce mileage.", "Consider additional insurance coverage."]
+    },
+    {
+        "riskScore": 70,
+        "riskLevel": "Moderate",
+        "recommendations": ["Install a vehicle tracking system.", "Enroll in a defensive driving course."]
+    }
+]

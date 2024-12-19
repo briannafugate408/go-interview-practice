@@ -3,7 +3,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"net/http"
+	"os"
+	"time"
 )
 
 type RiskPredictionRequest struct {
@@ -20,8 +23,54 @@ type RiskPredictionResponse struct {
 	Recommendations []string `json:"recommendations"`
 }
 
+// create a slice of json objects to store the data no type is defined
+var data []interface{}
+
+func loadData() error {
+	file, err := os.Open("data.json")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	decoder := json.NewDecoder(file)
+	if err := decoder.Decode(&data); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// return a random RiskPredictionResponse object from the data
+func randomObjectHandler() (RiskPredictionResponse, error) {
+	rand.Seed(time.Now().UnixNano())
+	randomIndex := rand.Intn(len(data))
+	randomObject := data[randomIndex]
+
+	// turn random json object into a RiskPredictionResponse object
+	var response RiskPredictionResponse
+	bytes, err := json.Marshal(randomObject)
+	if err != nil {
+		return response, err
+	}
+
+	if err := json.Unmarshal(bytes, &response); err != nil {
+		return response, err
+	}
+
+	return response, nil
+
+}
+
 // StartServer starts the HTTP server on the specified port
 func StartServer() {
+
+	// load the data from the JSON file
+	if err := loadData(); err != nil {
+		fmt.Println("Error loading data:", err)
+		return
+	}
+
 	http.HandleFunc("/api/risk-prediction", RiskPredictionHandler)
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
@@ -42,16 +91,8 @@ func RiskPredictionHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	response := RiskPredictionResponse{
-		RiskScore: 85,
-		RiskLevel: "High",
-		Recommendations: []string{
-			"Install a vehicle tracking system.",
-			"Enroll in a defensive driving course.",
-		},
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(response)
+	response, _ := randomObjectHandler()
+	// print the response as RiskPredictionResponse
+	fmt.Printf("%+v\n", response)
 
 }
